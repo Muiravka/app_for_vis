@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/vis_fin:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/app_for_vis:latest
